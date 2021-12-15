@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="../assets/img/Logo/icon.png">
+    <link rel="stylesheet" href="../shop/FeedbackForm/assets/style/styleFeedbackForm.css" />
+    <link rel="stylesheet" href="../assets/css/fonts.css">
+    <title>Full AT</title>
+</head>
+<body>
+    <div class="container">
+        <!-- Site Header -->
+        <header class="main_nav">
+            <nav>
+                <ul class="ULmain">
+                    <li><a href="#t1" id="t1">RENT&DRIVE</a></li>
+                    <script src="../js/rentScript.js"></script>
+                    <li><a href=./index.html#t2">CATALOG</a></li>
+                    <li><a href="./index.html"><img src="../shop/FeedbackForm//assets/img/Logo/Logo.png" width="100px" height="100px"></a></li>
+                    <li><a href="#">BRENTS CAR</a>
+
+                        <ul class="UlСarBrand">
+                            <li><a href="../shop/FullAT/indexFullAT.html#t2">Vas</li>
+                            <li><a href="#t1.2">Toyota</a></li>
+                            <li><a href="#t1.3">Mitsubishi</a></li>
+                            <li><a href="#t1.4">Nissan</a></li>
+                        </ul>
+
+                    </li>
+                    <li><a href="#t5">ABOUT</a></li>
+                </ul>
+            </nav>
+            <form class="feedback-form">
+                <div class="form-row">
+                  <div class="form-group">
+                    <label class="control-label"><p>Name:</p></label>
+                    <input class="form-control" type="text" id="form-name" placeholder="Jimmy Neutron" required="required">
+                  </div>
+
+                  <div class="form-group">
+                    <label class="control-label"><p>Email:</p></label>
+                    <input class="form-control" type="email" id="form-email" required="required">
+                  </div>
+                </div>
+
+                <div class="form-group">
+                  <label class="control-label"><p>Feedback:</p></label>
+                  <textarea class="form-control" type="text" id="form-feedback" minlength="5" maxlength="400" required="required"></textarea>
+                </div>
+                <div class="form-submit">
+                  <button name="button-send" id="button-send"><p>Send</p></button>
+                  <button name="button-again" id="button-again"><p>Again</p></button>
+                </div>
+                <div class="form-group">
+                  <div class="res-comment" id="res-comment"><p></p></div>
+                </div>
+              </form>
+
+              <div class="comments">
+                  <div id="comments-sent">No Comments<br></div>
+              </div>
+
+              <div class="more-comments">
+                <a href="./indexFeedbackList.html"><p>Show more comments</p></a>
+              </div>
+        
+            </header>
+        </div>
+        <!-- Site Footer -->
+        <div class="Footer">
+            <a name="t5"></a>
+            <div class="footerSections">
+                <div class="Support">
+                    <a href="tel:+46771793336">Support +46-771-793-336</a>
+                </div>
+                <a href="https://yandex.ru/maps/-/CCUuV2daOD">Our address</a>
+                <a>Copyright © Caskey99</a>
+                <div class="Vk"><a href=""><img src="../shop/FeedbackForm/assets/img/Footer/vk.png" width="100px" height="100px"></a></div>
+                <div class="load-time">
+                  <div id="time"></div>            
+                </div>
+            </div>
+
+        </div>
+        <script src="../js/loadScript.js"></script>
+        <script language="JavaScript" type="text/javascript" src="../js/formScript.js"></script>
+</body>
+</html>

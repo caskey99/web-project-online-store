@@ -1,0 +1,185 @@
+body {
+    margin: 0 auto;
+    width: 100%;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+}
+
+/*            */
+/* Header */
+/*            */
+
+header {
+    background-image: url(../img/Сatalog/FullAT.jpg);
+    height: 1080px;
+    background-repeat: no-repeat;
+    /* background-size: 100%; */
+}
+
+.img-logo {
+    margin:0 auto;
+}
+
+/* header buttons */
+nav ul {
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+    padding: 0px;
+    
+    list-style: none;
+    position: relative;
+}
+
+nav ul li {
+    align-self: center;
+    
+    display:inline-block;
+}
+
+nav ul a {
+    align-self: center;
+    text-decoration: none;
+    padding:10px;
+    color:black;
+}
+
+nav ul a:hover {
+    color: white;
+    transition: 500ms;
+}
+nav ul ul {
+    display: none;
+    position: absolute;
+    float: left;
+}
+
+nav ul li:hover > ul {
+    display:inherit;
+}
+
+/*            */
+/* Catalog */
+/*            */
+.Catalog {
+    background-image: url(../img/Сatalog/Bg1.jpg);   
+    /* background-size: 100%; */
+}
+
+.productWhole {
+	display: block;
+	width: 100%;
+	float: left;
+}
+
+
+@media only screen and (min-width: 450px) {
+	.productWhole {
+		width: 50%;
+        font-family: sans-serif;
+	}
+}
+
+@media only screen and (min-width: 1000px) {
+	.productWhole {
+		width: 33.333%;
+	}
+}
+
+.product {
+	display: block;
+	margin: 20px;
+	text-decoration: none;
+    background-color: rgb(240, 144, 34);
+}
+
+.products {
+	padding: 0;
+	list-style: none;
+}
+
+.product-photo {
+	overflow: hidden;
+    display: flex;
+    justify-content: center;
+    height: 400px;
+}
+
+.product:hover .product-photo img {
+	transform: scale(1.1);
+    transition: 500ms;
+}
+
+.product p {
+    font-weight: bold;
+    font-family:Comic-Relief;
+    display: flex;
+    margin: 0;
+    font-size: 25px;
+    color :white;
+	overflow: hidden;
+}
+
+.btn1 {
+    background-color:green;
+    border: none;
+    text-align: center;
+    padding: 5px px;
+    display: inline-block;
+    font-size: 10px;
+    border-radius: 12px;
+}
+
+.btn1 p{
+    font-size: 22px;
+    color :white;
+}
+
+.btn1 {
+    transition: 0.4s;
+}
+
+.btn1:hover {
+    background-color: red;
+    color: white;
+}
+
+.sectionContent{
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+}
+
+/*             */
+/*  Footer  */
+/*             */
+
+.Footer{
+    background-image: url(../img/Footer/Bg1.jpg);
+    height: 300px;
+}
+
+.Footer p{
+    color:white;
+}
+
+.Footer a{
+    font-size: 42px;
+    align-self: center;
+    text-decoration: none;
+    padding:10px;
+    color:white;
+}
+
+.Footer {
+    
+}
+
+.footerSections {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}

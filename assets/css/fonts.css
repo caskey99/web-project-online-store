@@ -1,0 +1,21 @@
+
+@font-face {
+    font-family: "NATSRegular"; 
+    src: url("/assets/fonts/NATS-Regular.woff") format("truetype"); 
+    font-style: normal; 
+    font-weight: normal; 
+} 
+
+@font-face {
+    font-family: "StopmotionDecember11"; 
+    src: url("/assets/fonts/StopmotionDecember11.ttf") format("truetype"); 
+    font-style: normal; 
+    font-weight: normal; 
+} 
+
+@font-face {
+    font-family: "Comic-Relief"; 
+    src: url("/assets/fonts/Comic-Relief.otf") format("truetype"); 
+    font-style: normal; 
+    font-weight: normal; 
+} 

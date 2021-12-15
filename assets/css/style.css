@@ -1,0 +1,190 @@
+body {
+    margin: 0 auto;
+    width: 100%;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+}
+
+/*            */
+/* Header */
+/*            */
+
+header {
+    background-image: url(../img/bg.jpg);
+    height: 1080px;
+    background-repeat: no-repeat;
+}
+
+.img-logo {
+    margin:0 auto;
+}
+
+/* header buttons */
+nav ul {
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+    padding: 0px;
+    list-style: none;
+    position: relative;
+}
+
+nav ul li {
+    align-self: center;
+    display:inline-block;
+}
+
+nav ul a {
+    align-self: center;
+    text-decoration: none;
+    padding:10px;
+    color:black;
+}
+
+nav ul a:hover {
+    color: white;
+    transition: 500ms;
+}
+nav ul ul {
+    display: none;
+    position: absolute;
+    float: left;
+}
+
+nav ul li:hover > ul {
+    display:inherit;
+}
+
+
+/*main text*/
+.main-text {
+    /* display:flex;
+    justify-content: center; */
+    
+    font-size: 74px;
+    font-weight: bold;
+}
+
+.main-text p {
+    font-size: 72px;
+    text-align: center
+}
+
+/* Transition to Catalog */
+.Transition1{
+    background-image: url(../img/Transitions/T1.jpg);
+    height: 638px;
+    background-repeat: no-repeat;
+    /* background-size: 100%; */
+}
+.Transition1 p {
+    font-size: 74px;
+    font-weight: bold;
+    text-align: center
+    /* justify-content: center;
+    align-items: center; */
+}
+
+/*             */
+/* Catalog */
+/*             */
+.Catalog {
+    background-image: url(../img/Сatalog/Bg1.jpg);
+    height: 1080px;
+    background-repeat: no-repeat;
+    /* background-size: 100%; */
+}
+
+.Catalog p {
+    font-family: "StopmotionDecember11";
+    font-size: 72px;
+    color: #fff;
+    text-shadow: 0px 15px 5px rgba(0,0,0,0.1), 
+                        10px 20px 5px rgba(0,0,0,0.05),
+                       -10px 20px 5px rgba(0,0,0,0.05);
+}
+
+.Catalog a{
+    align-self: center;
+    text-decoration: none;
+    padding:10px;
+    color:white;
+}
+
+.Catalog .FullAtText {
+    background-image: url(../img/Сatalog/FullAT2.jpg);
+    background-repeat: no-repeat;
+    height: 540px;
+}
+
+.Catalog .MedAtText {
+    background-image: url(../img/Сatalog/MediumAT.jpg);
+    background-repeat: no-repeat;
+    height: 540px;
+}
+
+.Catalog .EasyAtText {
+    background-image: url(../img/Сatalog/EasyAT.jpg);
+    background-repeat: no-repeat;
+    height: 540px;
+}
+
+.Catalog .СruelAtText {
+    background-image: url(../img/Сatalog/СruelAT.jpg);
+    background-repeat: no-repeat;
+    height: 540px;
+}
+
+.catalogSections {
+    display: flex;
+    justify-content : space-between;
+}
+
+
+/* Transition after Catalog */
+.Transition2{
+    background-image: url(../img/Transitions/T2.jpg);
+    height: 638px;
+    /* background-size: 100%; */
+}
+
+
+/*             */
+/*  Footer  */
+/*             */
+
+.Footer{
+    background-image: url(../img/Footer/Bg1.jpg);
+    height: 300px;
+    /* background-size: 100%; */
+}
+
+.Footer p{
+    color:white;
+}
+
+.Footer a{
+    font-size: 42px;
+    align-self: center;
+    text-decoration: none;
+    padding:10px;
+    color:white;
+}
+
+.Footer {
+
+}
+
+.footerSections {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.Support {
+
+}
+

@@ -1,0 +1,252 @@
+body {
+    margin: 0 auto;
+    width: 100%;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+}
+
+/*            */
+/* Header */
+/*            */
+
+header {
+    background-image: url(../img/bg.jpg);
+    height: 1080px;
+    background-repeat: no-repeat;
+    word-break: break-all;
+}
+
+.img-logo {
+    margin:0 auto;
+}
+
+/* header buttons */
+nav ul {
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+    padding: 0px;
+    list-style: none;
+    position: relative;
+}
+
+nav ul li {
+    align-self: center;
+    display:inline-block;
+}
+
+nav ul a {
+    align-self: center;
+    text-decoration: none;
+    padding:10px;
+    color:black;
+}
+
+nav ul a {
+    align-self: center;
+    text-decoration: none;
+    padding:10px;
+    color:black;
+}
+
+nav ul a:hover {
+    color: white;
+    transition: 500ms;
+}
+
+nav ul ul {
+    display: none;
+    position: absolute;
+    float: left;
+}
+
+nav ul li:hover > ul {
+    display:inherit;
+}
+
+
+.Footer{
+    background-image: url(../img/Footer/Bg1.jpg);
+    height: 300px;
+}
+
+.Footer p{
+    color:white;
+    font-size: 42px;
+    align-self: center;
+    text-decoration: none;
+    padding:10px;
+    color:white;
+}
+
+#time {
+    color:white;
+    font-size: 42px;
+    align-self: center;
+    text-decoration: none;
+    padding:10px;
+    color:white;
+}
+.Footer a{
+    font-size: 42px;
+    align-self: center;
+    text-decoration: none;
+    padding:10px;
+    color:white;
+}
+
+.Footer {
+
+}
+
+.footerSections {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.Support {
+
+}
+/*                        */
+/*         FORM      */
+/*                       */
+
+form {
+    background: rgb(239,221,197);
+    margin-left: auto;
+    margin-right: auto;
+    padding: 30px;
+    margin-top: 10%;
+    min-width: 200px;
+    max-width:700px;
+    border-radius: 20px;
+  }
+
+form p{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#res-comment{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background: url(../img/V.png) no-repeat 98% center;
+    overflow: hidden;
+}
+
+.feedback-form label{
+    width: 20%;
+    display: inline-block;
+}
+
+.feedback-form input {
+    height:0%;
+    width:50%;
+    padding:1% 5%;
+}
+
+.feedback-form textarea{
+    width: 90%;
+    height: 100px;
+    resize: none;
+}
+
+input:required, textarea:required {
+    background-color: aquamarine;
+}
+
+.feedback-form input:required:valid, .feedback-form textarea:required:valid {
+    background: aquamarine url(../img/V.png) no-repeat 100% center;
+    border-color: orange;
+}
+
+
+/*                                */
+/*         COMMENTS      */
+/*                               */
+
+.comments{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1%;
+    padding: 1%;
+    width: 50%;
+    height: 15%;
+    color: black;
+    background-color: white;
+    border-radius: 20px;
+    word-break: break-all;
+}
+
+comments-sent{
+    margin: 10%;
+}
+
+
+
+
+
+
+.more-comments{
+    position: relative;
+    left: 45%;
+}
+
+.more-comments a {
+    color: white;
+    text-decoration: none;
+    border: medium none;
+    border-radius: 40px;
+    background-color: hsl(160, 100%, 75%, 0.4);
+    
+}
+
+.more-comments a:hover {
+    transition: 500ms;
+    text-shadow: salmon 1px 1px 1px ;
+    font-size: 17px;
+}
+
+.more-comments a:focus{
+    color:salmon;
+    transition: 500ms;
+}
+  
+
+
+
+
+
+
+
+.fetch-comment{
+    font-family:Verdana, Geneva, Tahoma, sans-serif ;
+    font-size: 18px;
+    color: black;
+    position: relative;
+    background-color:white;
+}
+
+
+.loader {
+    height: 40px;
+    width: 40px;
+    position: absolute;
+    left: 50%;
+    margin-left: -20px;
+    top: 50%;
+    margin-top: -20px;
+  }
+   
+  .loader:before,
+  .loader:after {
+    height: 40px;
+    width: 40px;
+    border: 8px solid rgba(114, 80, 80, 0.5);
+    border-radius: 10px;
+    position: absolute;
+    top: 0;
+  }
+
